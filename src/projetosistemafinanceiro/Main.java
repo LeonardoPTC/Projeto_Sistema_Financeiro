@@ -38,7 +38,7 @@ public class Main {
 					clienteController.removerCliente();
 					break;
 				case 5:
-					System.out.print("CPF do cliente(Sem espaçoes e pontuações): ");
+					System.out.print("CPF do cliente(Sem espaços e pontuações): ");
 					String cpfEmprestimo = scanner.nextLine();
 					System.out.print("Capital: ");
 					float capital = scanner.nextFloat();
